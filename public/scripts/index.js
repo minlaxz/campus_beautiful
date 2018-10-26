@@ -28,10 +28,11 @@ function handleLogin() {
             //TODO
             window.location('user-ground/');
         }).catch(function (error) {
+            document.getElementById('login-info').hidden = false;
             var errorCode = error.code;
             var errorMessage = error.message;
             if (errorCode === 'auth/wrong-password') {
-                document.getElementById('login-info').hidden = false;
+                document.getElementById('login-info').textContent = "Wrong Password, New User? Forgot Password?";
                 document.getElementById('login-password').value = "";
             } else if (errorCode === 'auth/too-many-requests') {
                 document.getElementById('login-info').textContent = "We have banned this user for 10 mins for requesting wrong attemps!";
