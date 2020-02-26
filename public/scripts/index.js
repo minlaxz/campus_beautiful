@@ -3,9 +3,11 @@ function toggle() {
     document.getElementById('loginPage').hidden = !document.getElementById('loginPage').hidden;
     document.getElementById('signupPage').hidden = !document.getElementById('signupPage').hidden;
     if (document.getElementById('signupPage').hidden) {
-        document.getElementById('signCallBtn').textContent = "Sign Up";
+        document.getElementById('signCallBtn').textContent = "To Sign Up";
+
     } else {
-        document.getElementById('signCallBtn').textContent = "Sign In";
+        document.getElementById('signCallBtn').textContent = "To Sign In";
+
     }
 }
 function handleLogin() {
@@ -32,16 +34,24 @@ function handleLogin() {
             var errorCode = error.code;
             var errorMessage = error.message;
             if (errorCode === 'auth/wrong-password') {
-                document.getElementById('login-info').textContent = "Wrong Password, New User? Forgot Password?";
+                document.getElementById('login-info').textContent = "Wrong Password! Forgot ?";
                 document.getElementById('login-password').value = "";
             } else if (errorCode === 'auth/too-many-requests') {
-                document.getElementById('login-info').textContent = "We have banned this user for 10 mins for requesting wrong attemps!";
+                document.getElementById('login-info').textContent = "We have banned this user for 10 mins for requesting wrong attempts!";
                 //TODO
                 if (email) {
                     document.getElementById('login-button').disabled = true;
                 }
 
-            } else {
+            }else if(errorCode === 'auth/user-not-found'){
+                document.getElementById('login-info').textContent = "No user record.";
+                document.getElementById('login-email').value = "";
+                document.getElementById('login-password').value = "";
+            } else if(errorCode === 'auth/invalid-email'){
+                document.getElementById('login-info').textContent = "Invalid Email!";
+                document.getElementById('login-email').value = "";
+            }else {
+                console.log(errorCode);
                 console.log(errorMessage);
             }
 
