@@ -1,0 +1,31 @@
+{
+    "uid": "dhItK8EW5lhwxsz3vYbdgYWQY763",
+    "displayName": null,
+    "photoURL": null,
+    "email": "mgmglatt.6991@gmail.com",
+    "emailVerified": false,
+    "phoneNumber": null,
+    "isAnonymous": false,
+    "providerData": [
+        {
+            "uid": "mgmglatt.6991@gmail.com",
+            "displayName": null,
+            "photoURL": null,
+            "email": "mgmglatt.6991@gmail.com",
+            "phoneNumber": null,
+            "providerId": "password"
+        }
+    ],
+    "apiKey": "AIzaSyDs5yoifRx-UaIOii9DwM6fW00LVJVM6zg",
+    "appName": "[DEFAULT]",
+    "authDomain": "laxz-test.firebaseapp.com",
+    "stsTokenManager": {
+        "apiKey": "AIzaSyDs5yoifRx-UaIOii9DwM6fW00LVJVM6zg",
+        "refreshToken": "AEXAG-cff64Ponoy463p__TnZZrRtbW0O8WLV3bjxnwYUzCz4q9aBVk2D7m2JpHiPnoPmp6fU0e3mwQ_CkxKtH5cXCe1HwwxCHb0WZOoBrqGl3aPNI3cjOCTnNLCphumUCxh8Gie3iwm_5-Ulkd_mcq5EWD3sYUbRRFV0MIBibit12BMev8fOozUlX6oh72mMLI6rDDlaXsvwNZl47gVuFsEEUQ_ZFAemw",
+        "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA2OThjZmNlMTgzNWZjNDZmNWVhZWZjOGJmOTMwNjk0OGQ2OTFmMGIifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGF4ei10ZXN0IiwiYXVkIjoibGF4ei10ZXN0IiwiYXV0aF90aW1lIjoxNTM4NTAyMzQ1LCJ1c2VyX2lkIjoiZGhJdEs4RVc1bGh3eHN6M3ZZYmRnWVdRWTc2MyIsInN1YiI6ImRoSXRLOEVXNWxod3hzejN2WWJkZ1lXUVk3NjMiLCJpYXQiOjE1Mzg1MDIzNDUsImV4cCI6MTUzODUwNTk0NSwiZW1haWwiOiJtZ21nbGF0dC42OTkxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJtZ21nbGF0dC42OTkxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.CBPpj3LeDklg7nbnbd6coyjL883OdSDh1_KkQqcPXNwVSgTDyBtotl29va3TK8-kO7IsX6sgMEn7bPURnTMB16uSHGB8gIgSa21K8Yq_wxuXN6OlT1m6MaXcNsmuws1ENoiTHAlaUay-oqSo56dCwfoPeBn1gVgq9NXGeC3OtAGgD4NAraylAfdbDtX0-Fj28i8-GYiHXLavpazXd-qmUEN1xC7LqIP7TywP9jWfazjUZNgqGpQbZmthFW_2QEreCEXsGTcIYhVotJbpU0Tp-VWrd3fmDHE8XMREXsa-jpnQpa3H2n3s3BD0i7ROzt89y0zXaohF2N9uSu5NPiHLGw",
+        "expirationTime": 1538505945830
+    },
+    "redirectEventId": null,
+    "lastLoginAt": "1538502345000",
+    "createdAt": "1538485989000"
+}

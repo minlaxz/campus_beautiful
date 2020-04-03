@@ -1,0 +1,152 @@
+/********************* Body ******* ROOT *********/
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+/*375 pixels (iPhone 6, 6s, 7, 8 and X portrait)
+384 pixels (Android Nexus portrait)
+414 pixels (iPhone 6 Plus, 6s Plus, 7 Plus and 8 Plus portrait)
+480 pixels (iPhone 3 and 4 landscape mode)
+568 pixels (iPhone 5 and iPhone SE landscape)
+600 pixels (Android Nexus landscape, Kindle portrait)
+667 pixels (iPhone 6, 7 and 8 landscape)
+736 pixels (iPhone 6 Plus, 7 Plus and 8 Plus landscape)
+768 pixels (iPad portrait)
+812 pixels (iPhone X landscape)
+1024 pixels (iPad landscape)*/
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .form-inline .form-check {
+    width: 100%;
+  }
+  
+  @media (min-width: 576px) {
+    .form-inline label {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    .form-inline .form-group {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 0;
+    }
+    .form-inline .form-control {
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
+    }
+    .form-inline .form-control-plaintext {
+      display: inline-block;
+    }
+    .form-inline .input-group,
+    .form-inline .custom-select {
+      width: auto;
+    }
+    .form-inline .form-check {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: auto;
+      padding-left: 0;
+    }
+    .form-inline .form-check-input {
+      position: relative;
+      margin-top: 0;
+      margin-right: 0.25rem;
+      margin-left: 0;
+    }
+    .form-inline{
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+    .form-inline .custom-control-label {
+      margin-bottom: 0;
+    }
+  }

@@ -1,0 +1,107 @@
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #647C82;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-outline-success {
+    color: #28a745;
+    background-color: transparent;
+    background-image: none;
+    border-color: #28a745;
+}
+.btn:hover {
+    background:#647C82;
+    color: #FF0000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .btn_group {
+    margin-bottom: 10px;
+}
+
+  .btn_gp{
+      margin-bottom: 10px;
+  }
+
+  
+.btn_login{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+.btn_signup{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+.btn_update{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+.btn_upload , .btn_settings{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+.btn_signout , .btn_delacc{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+
+[type="reset"], [type="submit"], button, html [type="button"] {
+    -webkit-appearance: button;
+}
+[type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner, button::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+}

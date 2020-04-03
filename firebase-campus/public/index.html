@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TTU Campus(Login)</title>
+
+    <!-- FONT HERE -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- CSS HERE 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- My Custom CSS HERE   -->
+    <link rel="stylesheet" href="styles/laxz.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Connect to my Project -->
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script defer src="/__/firebase/5.4.2/firebase-app.js"></script>
+    <script defer src="/__/firebase/5.4.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="scripts/fireconnect.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-inline">
+            <div class="text-center mb-4">
+                <img class="mb-4 animated flipInX animated-one" src="imgs/test.png" alt="" width="72" height="72">
+                <h1 class="h3 mb-3 font-weight-bold laxz-head-shadow">TTU Campus</h1>
+                <h5 class="form-signin-heading head">Get Together with<a class="text-primary">
+                        TTU BarCamp
+                    </a></h5>
+
+                <div class="form-group animated flipInX animated-two">
+                    <small class="font-weight-light text-monospace text-secondary">Min needs to indentify you.
+                        <p>Sign in to an existing account or Sign up.</p>
+                    </small>
+                </div>
+
+                <div id="load" class="container">
+                    <div class="form-group">
+                        <input id="email" class="form-control email" placeholder="Email Address" required=""
+                            autocomplete="off" type="email">
+                    </div>
+
+                    <div class="form-group">
+                        <input id="password" class="form-control passwd" placeholder="Password" required="" type="password">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <div class="container">
+        <button class="btn btn-md btn-primary btn_login" id="signin">Login</button>
+        <button class="btn btn-md btn-primary btn_signup" id="signup">Signup</button>
+        <button class="btn btn-md btn-primary btn_signout" id="signout" hidden>SignOut</button>
+        <button class="btn btn-md btn-primary btn_signout" id="verify" hidden>Verify</button>
+        <div id="status"></div>
+        <div id="details" class="separate"></div>
+
+    </div>
+
+    <a href="" id="forgot" class="forgot_a">forgot password?</a>
+
+    <div class="jumbotron jumbotron-fluid footer animated bounceIn">
+        <p class="display-9 text-dark firelogo text-muted text-center laxz-foot-shadow">
+            <img class="rounded mx-auto d-block" src="imgs/firebase-logo.png">
+            Developed by Min Latt (EC@TTU) <sup>4th</sup>
+        </p>
+    </div>
+</body>
+<script src="scripts/main.js"></script>
+
+</html>

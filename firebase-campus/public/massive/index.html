@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TTU Campus</title>
+
+    <!-- FONT HERE -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- CSS HERE 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- My Custom C
+        SS HERE -->
+        <link rel="stylesheet" href="../styles/laxz.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <!-- Connect to my Project -->
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+
+    <script defer src="/__/firebase/5.4.2/firebase-app.js"></script>
+    <script defer src="/__/firebase/5.4.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.4.2/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/5.4.2/firebase-storage.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="laxz-col" id="profile_card">
+            <img id="user-pic" class="rounded-circle mx-auto d-block shadow laxz-border" style="width:80px ; height: 95px">
+            <p id="currentName" class="card-text text-name"></p>
+            <p id="currentPhone" class="card-text text-phone"></p>
+            <label for="active">Profile : </label>
+            <span id="active" class="dot animated fadeOut animated-dot"></span>
+        </div>
+        <div class="laxz-col">
+            <div class="card rounded shadow">
+                <!-- style="width: 18rem;"-->
+                <div class="card-body">
+                    <input type="file" class="form-control-file" id="photo">
+                </div>
+                <div class="card-footer">
+
+                    <button class="btn btn-sm btn-outline-success btn_upload" id="upload">Upload</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn_gp">
+        <button class="btn btn-md btn-primary btn_settings" id="btn_settings">Settings</button>
+        <button class="btn btn-md btn-primary disabled">Notifications <span class="badge badge-light">9</span>
+            <!--<span class="sr-only">unread messages</span>--></button>
+        <button class="btn btn-md btn-danger btn_signout" id="signout">Adiós</button>
+    </div>
+
+    <div id="settings_card" class="container" hidden>
+        <div class="card text-monospace rounded shadow">
+            <div class="card-header">
+                User Profile Settings
+            </div>
+            <div class="card-body">
+                <!--<h5 class="card-title">Special title treatment</h5> autofocus=""-->
+                <!--<p id="currentName" class="card-text text-primary"></p>-->
+                <input id="name" class="form-control name" placeholder="Name" type="name" autocomplete="off" style="background-color: #e9ecefff;"><br>
+                <!--<p id="currentPhone" class="card-text text-primary"></p>-->
+                <input id="phone" class="form-control phone" placeholder="Phone" type="phone" autocomplete="off" style="background-color: #e9ecefff;">
+            </div>
+
+
+            <div class="card-body">
+                <p id="repasswdtxt" class="card-text text-muted"></p>
+                <input id="rePasswd" class="form-control repasswd" placeholder="Password" type="password" style="background-color: #e9ecefff;">
+            </div>
+
+            <div class="card-footer">
+                <button class="btn btn-md btn-primary btn_update" id="update">Update</button>
+            </div>
+        </div>
+        <label for="delete">Care!</label>
+        <button class="btn btn-md btn-danger btn_delacc" id="delete">Delete</button>
+    </div>
+    <div id="data"></div>
+    <div class="jumbotron jumbotron-fluid footer laxz-jumbotron">
+        <p class="display-9 text-dark firelogo text-muted text-center laxz-foot-shadow">
+            <img class="rounded mx-auto d-block" src="../imgs/firebase-logo.png">
+            Developed by Min Latt (EC@TTU) <sup>4th</sup>
+        </p>
+    </div>
+</body>
+<script src="scripts/fireconnect.js"></script>
+<script src="scripts/index.js"></script>
+
+</html>

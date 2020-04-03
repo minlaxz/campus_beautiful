@@ -1,0 +1,156 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #e9ecefff;
+    color: #212529;
+    text-align: left;
+    
+}
+
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+.jumbotron {
+    padding: 4rem 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 540px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+.mb-5, .my-5 {
+    margin-bottom: 2rem;
+}
+.mt-5, .my-5 {
+    margin-top: 2rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.laxz-jumbotron{
+    background-color: #e9ecefff;
+    
+}
+
+.footer{
+    margin-top: 20px;
+    width:100%;
+    text-align: center;
+}
+.firelogo {
+    position: relative;
+}
+.laxz-foot-shadow{
+    font-family: 'Open Sans' , sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 18px;
+}
+.text-dark {
+    color: #343a40 !important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.d-block {
+    display: block !important;
+}
+.rounded {
+    border-radius: .25rem !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+sup {
+    top: -.5em;
+}
+sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.laxz-shadow{
+    font-weight: 350;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.animated-dot{
+    animation-delay:1.5s; 
+  }
